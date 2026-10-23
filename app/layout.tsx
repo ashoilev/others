@@ -1,0 +1,4 @@
+import type { Metadata } from 'next';
+import './globals.css';
+export const metadata: Metadata = {metadataBase:new URL('https://others-another-life.superball2.chatgpt.site'),title:'Others — Somewhere, there’s another you.',description:'Same beginnings. Different decisions. A whole other life. Meet an alternate self that starts like you and develops a life of its own.',openGraph:{title:'Somewhere, there’s another you.',description:'Meet your other self. An invitation to another life.',images:[{url:'/images/identities-v2.jpg',width:1536,height:1024}],type:'website'},twitter:{card:'summary_large_image',title:'Others — Somewhere, there’s another you.',images:['/images/identities-v2.jpg']},icons:{icon:'/favicon.svg'}};
+export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body>{children}</body></html>}
